@@ -1,0 +1,59 @@
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll.config
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll.config
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\System.Net.Http.Formatting.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\System.Net.Http.Formatting.xml
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll.config
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\ENJPDictionary.Connectivity.API.Framework.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+D:\Important\Projects\Fujita\BIM4D5D\Phase 2\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+D:\Projects\DB Change Order\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder_13thApril23\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder_13thApril23\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder_13thApril23\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder_13thApril23\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder_13thApril23\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Projects\Fujita BIM4D5D AMC\trunk\6. Software Development\Fujita_BIM4D5D_ChangeOrder_13thApril23\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb
+C:\Users\4511\Desktop\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner2.csprojResolveAssemblyReference.cache
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.dll
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\bin\Newtonsoft.Json.xml
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Revit Folder\20thMarch2024\fujita_BIM4D5D_planner2\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb

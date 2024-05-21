@@ -1,0 +1,144 @@
+-----------Exception Details on  12/14/2020 12:56:19 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/14/2020 12:56:19 AM
+
+Error Line No : line 37
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ Error Page Url: http://10.1.33.101:8086/AddCost.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/14/2020 12:59:06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/14/2020 12:59:06 AM
+
+Error Line No : line 37
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ Error Page Url: http://10.1.33.101:8086/AddCost.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/14/2020 1:01:52 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/14/2020 1:01:52 AM
+
+Error Line No : line 37
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ Error Page Url: http://10.1.33.101:8086/AddCost.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/14/2020 1:15:27 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/14/2020 1:15:27 AM
+
+Error Line No : line 28
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/14/2020 1:15:48 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/14/2020 1:15:48 AM
+
+Error Line No : line 28
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/14/2020 1:16:12 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/14/2020 1:16:12 AM
+
+Error Line No : line 28
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

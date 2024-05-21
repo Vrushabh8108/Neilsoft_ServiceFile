@@ -1,0 +1,97 @@
+-----------Exception Details on  12/4/2020 9:25:58 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/4/2020 9:25:58 AM
+
+Error Line No : ine 114
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+
+ Error Page Url: http://10.2.16.212:8086/CostAnalysisRep.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/4/2020 9:41:25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/4/2020 9:41:25 AM
+
+Error Line No : ine 117
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+
+ Error Page Url: http://10.2.16.212:8086/CostAnalysisRep.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/4/2020 9:57:45 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/4/2020 9:57:45 AM
+
+Error Line No : ine 117
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+
+ Error Page Url: http://10.2.16.212:8086/CostAnalysisRep.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/4/2020 10:37:31 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/4/2020 10:37:31 AM
+
+Error Line No : ine 118
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Incorrect syntax near ','.
+Incorrect syntax near 'cm'.
+
+ Error Page Url: http://10.2.16.212:8086/CostAnalysisRep.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,49 @@
+-----------Exception Details on  1/28/2021 1:56:35 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/28/2021 1:56:35 AM
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://10.1.33.101:8086/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/28/2021 1:56:36 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/28/2021 1:56:36 AM
+
+Error Line No : line 78
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

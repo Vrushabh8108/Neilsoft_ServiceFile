@@ -1,0 +1,72 @@
+-----------Exception Details on  18-08-2020 12:25:43-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2020 12:25:43
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'country'.
+
+ Error Page Url: http://localhost:55913/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2020 12:25:55-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2020 12:25:55
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'country'.
+
+ Error Page Url: http://localhost:55913/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2020 12:26:48-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2020 12:26:48
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'country'.
+
+ Error Page Url: http://localhost:55913/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

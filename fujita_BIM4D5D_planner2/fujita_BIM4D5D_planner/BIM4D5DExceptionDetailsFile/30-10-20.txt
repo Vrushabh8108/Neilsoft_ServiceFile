@@ -1,0 +1,48 @@
+-----------Exception Details on  30-10-2020 15:16:35-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 30-10-2020 15:16:35
+
+Error Line No : rrency)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Incorrect syntax near ')'.
+
+ Error Page Url: http://localhost:55913/InsertProjDetails.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  30-10-2020 15:16:57-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 30-10-2020 15:16:57
+
+Error Line No : rrency)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+
+ Error Page Url: http://localhost:55913/InsertProjDetails.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

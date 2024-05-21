@@ -1,0 +1,2112 @@
+-----------Exception Details on  1/24/2021 9:07:51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:51 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:51 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:51 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:52 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:57 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:57 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:58 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:58 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:58 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:58 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:58 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:59 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:07:59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:07:59 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:07 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:07 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:07 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:07 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:08 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:08 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:19 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:19 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:19 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:19 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:29 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:30 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:30 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:30 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:30 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:30 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:48 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:48 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:48 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:48 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:49 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:08:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:08:49 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:21 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:21 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:21 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:21 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:24 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:25 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:25 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:25 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:25 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:25 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:26 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:26 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:29 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:29 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:29 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:30 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:32 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:33 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:33 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:33 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:33 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:33 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:39 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:39 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:39 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:39 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:39 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:39 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:40 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:40 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:09:40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:09:40 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:26:44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:26:44 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:26:44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:26:44 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:26:44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:26:44 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 9:26:44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 9:26:44 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:22:05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:22:05 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:22:05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:22:05 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:00 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:00 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:01 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:01 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:34 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:35 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:35 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:35 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:35 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:36 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:36 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 10:58:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 10:58:36 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:07:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:07:10 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:07:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:07:10 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:07:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:07:10 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:07:11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:07:11 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:13:52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:13:52 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:13:52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:13:52 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:13:52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:13:52 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/24/2021 11:13:53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/24/2021 11:13:53 PM
+
+Error Line No : line 41
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'proj_id'.
+
+ Error Page Url: http://10.1.33.101:8086/GetElementStartEndDate.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

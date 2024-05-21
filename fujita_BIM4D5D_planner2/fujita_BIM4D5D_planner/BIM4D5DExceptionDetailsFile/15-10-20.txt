@@ -1,0 +1,24 @@
+-----------Exception Details on  15-10-2020 16:05:48-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 15-10-2020 16:05:48
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

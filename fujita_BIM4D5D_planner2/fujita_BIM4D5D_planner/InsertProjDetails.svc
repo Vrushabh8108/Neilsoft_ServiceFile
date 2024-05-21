@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="fujita_BIM4D5D_planner.Service6" CodeBehind="InsertProjDetails.svc.cs" %>

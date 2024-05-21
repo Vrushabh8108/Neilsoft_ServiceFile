@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="fujita_BIM4D5D_Planner" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SNC-22082019-3\SQLEXPRESS;Initial Catalog=fujita_BIM4D5D_Planner;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="fujita_BIM4D5D_PlannerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BIM_5DPlanner" Member="BIM_5DPlanners">
+    <Type Name="BIM_5DPlanner">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="category" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="cost_component" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cost_Master" Member="Cost_Masters">
+    <Type Name="Cost_Master">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="material_variance_subdiv_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="eff_date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="eff_date_end" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cost" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="modified_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="modified_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="material_option_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Material_Option_Cost_Master" Member="Material_Option" ThisKey="material_option_id" OtherKey="id" Type="Material_Option" IsForeignKey="true" />
+      <Association Name="Material_Variance_Subdivision_Cost_Master" Member="Material_Variance_Subdivision" ThisKey="material_variance_subdiv_id" OtherKey="id" Type="Material_Variance_Subdivision" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Element" Member="Elements">
+    <Type Name="Element">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Virtual_Element_Type" Member="Virtual_Element_Types">
+    <Type Name="Virtual_Element_Type">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Formwork_Parameters" Member="Formwork_Parameters">
+    <Type Name="Formwork_Parameter">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rep_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="area" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="total_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="Formwork_Parameter_Formwork_Parameters_lb" Member="Formwork_Parameters_lbs" ThisKey="id" OtherKey="fw_id" Type="Formwork_Parameters_lb" />
+      <Association Name="Rebar_Formwork_Report_Formwork_Parameter" Member="Rebar_Formwork_Report" ThisKey="rep_id" OtherKey="id" Type="Rebar_Formwork_Report" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Formwork_Parameters_lb" Member="Formwork_Parameters_lbs">
+    <Type Name="Formwork_Parameters_lb">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fw_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="length" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="width" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Association Name="Formwork_Parameter_Formwork_Parameters_lb" Member="Formwork_Parameter" ThisKey="fw_id" OtherKey="id" Type="Formwork_Parameter" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Global_Settings" Member="Global_Settings">
+    <Type Name="Global_Setting">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="web_server_name" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="site_manager_name" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="site_manager_email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="designer_name" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="designer_email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="database_server_path" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Material" Member="Materials">
+    <Type Name="Material">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Material_Material_Variance" Member="Material_Variances" ThisKey="id" OtherKey="material_id" Type="Material_Variance" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Material_Option" Member="Material_Options">
+    <Type Name="Material_Option">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Material_Option_Cost_Master" Member="Cost_Masters" ThisKey="id" OtherKey="material_option_id" Type="Cost_Master" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Material_Variance" Member="Material_Variances">
+    <Type Name="Material_Variance">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="material_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="variance" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Material_Material_Variance" Member="Material" ThisKey="material_id" OtherKey="id" Type="Material" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Material_Variance_Subdivision" Member="Material_Variance_Subdivisions">
+    <Type Name="Material_Variance_Subdivision">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="material_variance_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="unit_of_measurement" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="f_del" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Material_Variance_Subdivision_Cost_Master" Member="Cost_Masters" ThisKey="id" OtherKey="material_variance_subdiv_id" Type="Cost_Master" />
+      <Association Name="Unit_Of_Measurement_Material_Variance_Subdivision" Member="Unit_Of_Measurement1" ThisKey="unit_of_measurement" OtherKey="id" Type="Unit_Of_Measurement" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msprojoffice_Diff" Member="Msprojoffice_Diffs">
+    <Type Name="Msprojoffice_Diff">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="comparison_guid" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="first_version" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="second_version" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="f_approved" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Project_Msprojoffice_Diff" Member="Project" ThisKey="proj_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project" Member="Projects">
+    <Type Name="Project">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_guid" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Msprojoffice_Diff" Member="Msprojoffice_Diffs" ThisKey="id" OtherKey="proj_id" Type="Msprojoffice_Diff" />
+      <Association Name="Project_Project_Detail" Member="Project_Details" ThisKey="id" OtherKey="project_id" Type="Project_Detail" />
+      <Association Name="Project_Project_Exclude_Category" Member="Project_Exclude_Categories" ThisKey="id" OtherKey="proj_id" Type="Project_Exclude_Category" />
+      <Association Name="Project_Project_Filter" Member="Project_Filters" ThisKey="id" OtherKey="proj_id" Type="Project_Filter" />
+      <Association Name="Project_Project_Version" Member="Project_Versions" ThisKey="id" OtherKey="proj_id" Type="Project_Version" />
+      <Association Name="Project_Rebar_Formwork_Report" Member="Rebar_Formwork_Reports" ThisKey="id" OtherKey="proj_id" Type="Rebar_Formwork_Report" />
+      <Association Name="Project_Revit_Msprojoffice" Member="Revit_Msprojoffices" ThisKey="id" OtherKey="proj_id" Type="Revit_Msprojoffice" />
+      <Association Name="Project_Revit_Project_Model" Member="Revit_Project_Models" ThisKey="id" OtherKey="project_id" Type="Revit_Project_Model" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project_Details" Member="Project_Details">
+    <Type Name="Project_Detail">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="project_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="revit_project_file" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="ms_project_file" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="site_manager_name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="site_manager_email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="designer_name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="designer_email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="country" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="currency" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Project_Project_Detail" Member="Project" ThisKey="project_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project_Exclude_Category" Member="Project_Exclude_Categories">
+    <Type Name="Project_Exclude_Category">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="category" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="proj_ver_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Project_Project_Exclude_Category" Member="Project" ThisKey="proj_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project_Filter" Member="Project_Filters">
+    <Type Name="Project_Filter">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="filter_name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="proj_ver_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Project_Filter_Project_Filter_Dtl" Member="Project_Filter_Dtls" ThisKey="id" OtherKey="filter_id" Type="Project_Filter_Dtl" />
+      <Association Name="Project_Project_Filter" Member="Project" ThisKey="proj_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project_Filter_Dtl" Member="Project_Filter_Dtls">
+    <Type Name="Project_Filter_Dtl">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="filter_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="filter_category" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="filter_sign" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="filter_value" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Filter_Project_Filter_Dtl" Member="Project_Filter" ThisKey="filter_id" OtherKey="id" Type="Project_Filter" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project_Task_Details" Member="Project_Task_Details">
+    <Type Name="Project_Task_Detail">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_ver_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="seq" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="[level]" Member="level" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="start_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="end_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="duration" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="act_duration" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="progress" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="Project_Task_Detail_Task_Predecessor_Map" Member="Task_Predecessor_Maps" ThisKey="id" OtherKey="task_id" Type="Task_Predecessor_Map" />
+      <Association Name="Project_Task_Detail_Task_Resource_Map" Member="Task_Resource_Maps" ThisKey="id" OtherKey="task_id" Type="Task_Resource_Map" />
+      <Association Name="Project_Task_Detail_Task_Revit_Map" Member="Task_Revit_Maps" ThisKey="id" OtherKey="task_id" Type="Task_Revit_Map" />
+      <Association Name="Project_Task_Detail_Task_Successor_Map" Member="Task_Successor_Maps" ThisKey="id" OtherKey="task_id" Type="Task_Successor_Map" />
+      <Association Name="Project_Version_Project_Task_Detail" Member="Project_Version" ThisKey="proj_ver_id" OtherKey="id" Type="Project_Version" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project_Version" Member="Project_Versions">
+    <Type Name="Project_Version">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="version" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="created_by" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="created_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="approved_by" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="approved_on" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="f_reject" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Version_Project_Task_Detail" Member="Project_Task_Details" ThisKey="id" OtherKey="proj_ver_id" Type="Project_Task_Detail" />
+      <Association Name="Project_Project_Version" Member="Project" ThisKey="proj_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rebar_Formwork_Report" Member="Rebar_Formwork_Reports">
+    <Type Name="Rebar_Formwork_Report">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="element_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="element_name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Association Name="Rebar_Formwork_Report_Formwork_Parameter" Member="Formwork_Parameters" ThisKey="id" OtherKey="rep_id" Type="Formwork_Parameter" />
+      <Association Name="Rebar_Formwork_Report_Rebar_Parameter" Member="Rebar_Parameters" ThisKey="id" OtherKey="rep_id" Type="Rebar_Parameter" />
+      <Association Name="Project_Rebar_Formwork_Report" Member="Project" ThisKey="proj_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rebar_Parameters" Member="Rebar_Parameters">
+    <Type Name="Rebar_Parameter">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rep_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="weight" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="no_of_mainbar" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="no_of_stirrups" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Rebar_Formwork_Report_Rebar_Parameter" Member="Rebar_Formwork_Report" ThisKey="rep_id" OtherKey="id" Type="Rebar_Formwork_Report" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Resource" Member="Resources">
+    <Type Name="Resource">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Revit_Msprojoffice" Member="Revit_Msprojoffices">
+    <Type Name="Revit_Msprojoffice">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="proj_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="msprojoffice_file" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="modified_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="modified_on" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="version" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Project_Revit_Msprojoffice" Member="Project" ThisKey="proj_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Revit_Project_Model" Member="Revit_Project_Models">
+    <Type Name="Revit_Project_Model">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="project_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="element_type_id" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="element_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="elemnt_dtl" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="f_del" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="modified_by" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="modified_on" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="f_virtual" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Revit_Project_Model" Member="Project" ThisKey="project_id" OtherKey="id" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Revit_Project_Model_Test" Member="Revit_Project_Model_Tests">
+    <Type Name="Revit_Project_Model_Test">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Project_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="element_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="element_no" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="parameter_name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="parameter_value" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Task_Predecessor_Map" Member="Task_Predecessor_Maps">
+    <Type Name="Task_Predecessor_Map">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="task_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="predecessor_task_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Task_Detail_Task_Predecessor_Map" Member="Project_Task_Detail" ThisKey="task_id" OtherKey="id" Type="Project_Task_Detail" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Task_Resource_Map" Member="Task_Resource_Maps">
+    <Type Name="Task_Resource_Map">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="task_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="resource_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Task_Detail_Task_Resource_Map" Member="Project_Task_Detail" ThisKey="task_id" OtherKey="id" Type="Project_Task_Detail" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Task_Revit_Map" Member="Task_Revit_Maps">
+    <Type Name="Task_Revit_Map">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="task_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="element_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Task_Detail_Task_Revit_Map" Member="Project_Task_Detail" ThisKey="task_id" OtherKey="id" Type="Project_Task_Detail" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Task_Successor_Map" Member="Task_Successor_Maps">
+    <Type Name="Task_Successor_Map">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="task_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="successor_task_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Project_Task_Detail_Task_Successor_Map" Member="Project_Task_Detail" ThisKey="task_id" OtherKey="id" Type="Project_Task_Detail" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Unit_Of_Measurement" Member="Unit_Of_Measurements">
+    <Type Name="Unit_Of_Measurement">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="unit" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="Unit_Of_Measurement_Material_Variance_Subdivision" Member="Material_Variance_Subdivisions" ThisKey="id" OtherKey="unit_of_measurement" Type="Material_Variance_Subdivision" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Username_Password" Member="Username_Passwords">
+    <Type Name="Username_Password">
+      <Column Name="username" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="f_admin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="f_active" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="first_name" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="last_name" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="phone" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="emp_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

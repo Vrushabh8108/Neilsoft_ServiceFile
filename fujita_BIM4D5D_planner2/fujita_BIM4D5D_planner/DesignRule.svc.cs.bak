@@ -1,0 +1,306 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+
+namespace fujita_BIM4D5D_planner
+{
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service22" in code, svc and config file together.
+    // NOTE: In order to launch WCF Test Client for testing this service, please select Service22.svc or Service22.svc.cs at the Solution Explorer and start debugging.
+    public class Service22 : DesignRule
+    {
+        string connection_string = ConfigurationManager.ConnectionStrings["fujita_BIM4D5D_PlannerConnectionString"].ConnectionString.ToString();
+        public List<design_rule_country> Getdesignrule()
+        {
+            
+            SqlConnection conn = new SqlConnection(connection_string);
+            ConnectionState state = conn.State;
+            try
+            {
+                List<design_rule_country> design_rule_country1 = new List<design_rule_country>();
+                conn.Open();
+                SqlCommand cmd_cnt = new SqlCommand("Select * from Country_code;", conn);
+                SqlDataAdapter da_cnt = new SqlDataAdapter(cmd_cnt);
+                DataTable dt_cnt = new DataTable();
+                da_cnt.Fill(dt_cnt);
+               
+                for (int a = 0; a < dt_cnt.Rows.Count; a++)
+                {
+                    List<design_rule_city> design_rule_city1 = new List<design_rule_city>();
+                    design_rule_country design_rule_country2 = new design_rule_country();
+                    SqlCommand cmd_city = new SqlCommand("Select * from City where country_id = " + dt_cnt.Rows[a]["id"], conn);
+                    SqlDataAdapter da_city = new SqlDataAdapter(cmd_city);
+                    DataTable dt_city = new DataTable();
+                    da_city.Fill(dt_city);
+
+                    for (int a1 = 0; a1 < dt_city.Rows.Count; a1++)
+                    {
+                        design_rule_city design_rule_city2 = new design_rule_city();
+                        List<design_rule> design_rule1 = new List<design_rule>();
+                        SqlCommand cmd = new SqlCommand("select dr.name,(select unit from Unit_Of_Measurement where id = dr.unit_of_measurement_id) unit_of_measurement,value,formula from design_rule dr left outer join " +
+                                                       @" (select cc.id id, cc.name, drc.design_rule_id, drc.value,drc.formula from City cc
+                                                    left outer join  Design_Rule_Country drc on drc.city_id = cc.id where cc.id = " + Convert.ToInt32(dt_city.Rows[a1]["id"]) + @")design on design.design_rule_id = dr.id ; ", conn);
+                        SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        if (dt.Rows.Count > 0)
+                        {
+                            for (int i = 0; i < dt.Rows.Count; i++)
+                            {
+                                design_rule design_rule2 = new design_rule();
+                                design_rule2.name = dt.Rows[i]["Name"].ToString();
+                                design_rule2.unit_of_measurement = dt.Rows[i]["unit_of_measurement"].ToString();
+                                design_rule2.value = string.IsNullOrEmpty(dt.Rows[i]["value"].ToString()) ? (Decimal?)null : Convert.ToDecimal(dt.Rows[i]["value"]);
+                                design_rule2.formula = dt.Rows[i]["formula"].ToString();
+                                design_rule1.Add(design_rule2);
+                            }
+                        }
+
+                    
+                        design_rule_city2.city = dt_city.Rows[a1]["name"].ToString();
+                        design_rule_city2.design_rule = design_rule1;
+                        design_rule_city1.Add(design_rule_city2);
+                    }
+                    design_rule_country2.country = dt_cnt.Rows[a]["country"].ToString();
+                    design_rule_country2.design_rule_city = design_rule_city1;
+                    design_rule_country1.Add(design_rule_country2);
+                }
+               
+                conn.Close();
+                return design_rule_country1;
+            }
+            catch (System.Exception ex)
+
+            {
+
+
+                if (state == ConnectionState.Open)
+                {
+                    conn.Close();
+
+                }
+                Service17 exception1 = new Service17();
+                exception1.SendErrorToText(ex);
+                return null;
+
+            }
+        }
+
+        public List<design_rule_country> Getdesignrule_Project()
+        {
+
+            SqlConnection conn = new SqlConnection(connection_string);
+            ConnectionState state = conn.State;
+            try
+            {
+                List<design_rule_country> design_rule_country1 = new List<design_rule_country>();
+                conn.Open();
+                SqlCommand cmd_cnt = new SqlCommand("Select * from Country_code;", conn);
+                SqlDataAdapter da_cnt = new SqlDataAdapter(cmd_cnt);
+                DataTable dt_cnt = new DataTable();
+                da_cnt.Fill(dt_cnt);
+
+                for (int a = 0; a < dt_cnt.Rows.Count; a++)
+                {
+                    List<design_rule_city> design_rule_city1 = new List<design_rule_city>();
+                    design_rule_country design_rule_country2 = new design_rule_country();
+                    SqlCommand cmd_city = new SqlCommand("Select * from City where country_id = " + dt_cnt.Rows[a]["id"], conn);
+                    SqlDataAdapter da_city = new SqlDataAdapter(cmd_city);
+                    DataTable dt_city = new DataTable();
+                    da_city.Fill(dt_city);
+
+                    for (int a1 = 0; a1 < dt_city.Rows.Count; a1++)
+                    {
+
+                        SqlCommand cmd_project = new SqlCommand("Select * from Project where city_id = " + dt_city.Rows[a1]["id"], conn);
+                        SqlDataAdapter da_Project = new SqlDataAdapter(cmd_project);
+                        DataTable dt_project = new DataTable();
+                        da_city.Fill(dt_project);
+
+                        for (int p = 0; p < dt_project.Rows.Count; p++)
+                        {
+
+                            design_rule_city design_rule_city2 = new design_rule_city();
+                            List<design_rule> design_rule1 = new List<design_rule>();
+                            SqlCommand cmd = new SqlCommand("select dr.name,(select unit from Unit_Of_Measurement where id = dr.unit_of_measurement_id) unit_of_measurement,value,formula from design_rule dr left outer join " +
+                                                           @" (select cc.id id, cc.name, drc.design_rule_id, drc.value,drc.formula from City cc
+                                                    left outer join  Design_Rule_Country drc on drc.city_id = cc.id where cc.id = " + Convert.ToInt32(dt_city.Rows[a1]["id"]) + @")design on design.design_rule_id = dr.id ; ", conn);
+                            SqlDataAdapter da = new SqlDataAdapter(cmd);
+                            DataTable dt = new DataTable();
+                            da.Fill(dt);
+                            if (dt.Rows.Count > 0)
+                            {
+                                for (int i = 0; i < dt.Rows.Count; i++)
+                                {
+                                    design_rule design_rule2 = new design_rule();
+                                    design_rule2.name = dt.Rows[i]["Name"].ToString();
+                                    design_rule2.unit_of_measurement = dt.Rows[i]["unit_of_measurement"].ToString();
+                                    design_rule2.value = string.IsNullOrEmpty(dt.Rows[i]["value"].ToString()) ? (Decimal?)null : Convert.ToDecimal(dt.Rows[i]["value"]);
+                                    design_rule2.formula = dt.Rows[i]["formula"].ToString();
+                                    design_rule1.Add(design_rule2);
+                                }
+                            }
+
+
+                            design_rule_city2.city = dt_city.Rows[a1]["name"].ToString();
+                            design_rule_city2.design_rule = design_rule1;
+                            design_rule_city1.Add(design_rule_city2);
+                        }
+                        design_rule_country2.country = dt_cnt.Rows[a]["country"].ToString();
+                        design_rule_country2.design_rule_city = design_rule_city1;
+                        design_rule_country1.Add(design_rule_country2);
+                    }
+                }
+
+                conn.Close();
+                return design_rule_country1;
+
+            }
+            catch (System.Exception ex)
+            {
+
+
+                if (state == ConnectionState.Open)
+                {
+                    conn.Close();
+
+                }
+                Service17 exception1 = new Service17();
+                exception1.SendErrorToText(ex);
+                return null;
+
+            }
+        }
+
+        public List<design_rule> Getdesignrulecountry(string Country,string city)
+        {
+
+            SqlConnection conn = new SqlConnection(connection_string);
+            ConnectionState state = conn.State;
+            try
+            {
+                
+                        List<design_rule> design_rule1 = new List<design_rule>();
+                        SqlCommand cmd = new SqlCommand("select dr.name,(select unit from Unit_Of_Measurement where id = dr.unit_of_measurement_id) unit_of_measurement,value,formula from design_rule dr left outer join " +
+                                                       @" (select cc.id id, cc.name, drc.design_rule_id, drc.value,drc.formula from City cc
+                                                    left outer join  Design_Rule_Country drc on drc.city_id = cc.id where cc.id = (select id from city where name = N'"+city+"' and country_id in (select id from country_code where country = N'" +Country + @"')))design on design.design_rule_id = dr.id ; ", conn);
+                        SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        if (dt.Rows.Count > 0)
+                        {
+                            for (int i = 0; i < dt.Rows.Count; i++)
+                            {
+                                design_rule design_rule2 = new design_rule();
+                                design_rule2.name = dt.Rows[i]["Name"].ToString();
+                                design_rule2.unit_of_measurement = dt.Rows[i]["unit_of_measurement"].ToString();
+                                design_rule2.value = string.IsNullOrEmpty(dt.Rows[i]["value"].ToString()) ? (Decimal?)null : Convert.ToDecimal(dt.Rows[i]["value"]);
+                                design_rule2.formula = dt.Rows[i]["formula"].ToString();
+                        design_rule1.Add(design_rule2);
+                            }
+                        }
+
+
+                conn.Close();
+                return design_rule1;
+            }
+            catch (System.Exception ex)
+
+            {
+
+
+                if (state == ConnectionState.Open)
+                {
+                    conn.Close();
+
+                }
+                Service17 exception1 = new Service17();
+                exception1.SendErrorToText(ex);
+                return null;
+
+            }
+        }
+        public int updatedesignrule([Optional]string city,[Optional]string country,design_rule design_rule)
+        {
+            SqlConnection conn = new SqlConnection(connection_string);
+            ConnectionState state = conn.State;
+            try
+            {
+                conn.Open();
+                if (city == "" && country == "")
+                {
+                    SqlCommand cmd_designrule = new SqlCommand("Insert into Design_rule (name,unit_of_measurement_id) values (N'" + design_rule.name + "',(select id from unit_of_measurement where unit = N'"+design_rule.unit_of_measurement+"'))", conn);
+                    cmd_designrule.ExecuteNonQuery();
+                    SqlCommand cmd_cnt = new SqlCommand("Select * from Country_code;", conn);
+                    SqlDataAdapter da_cnt = new SqlDataAdapter(cmd_cnt);
+                    DataTable dt_cnt = new DataTable();
+                    da_cnt.Fill(dt_cnt);
+
+                    for (int a = 0; a < dt_cnt.Rows.Count; a++)
+                    {
+
+                        SqlCommand cmd_city = new SqlCommand("Select * from City where country_id = " + dt_cnt.Rows[a]["id"], conn);
+                        SqlDataAdapter da_city = new SqlDataAdapter(cmd_city);
+                        DataTable dt_city = new DataTable();
+                        da_city.Fill(dt_city);
+
+                        for (int a1 = 0; a1 < dt_city.Rows.Count; a1++)
+                        {
+                            SqlCommand cmd1 = new SqlCommand("Insert into Design_Rule_Country (design_rule_id,city_id,value,formula) values ((select id from design_rule where name = N'" + design_rule.name + "'),"+dt_city.Rows[a1]["id"]+"," + design_rule.value + ",N'"+design_rule.formula+"')", conn);
+                            cmd1.ExecuteNonQuery();
+                         }
+                    }
+
+                        }
+                else
+                {
+                    SqlCommand cmd_rule = new SqlCommand("Select count(*) from Design_Rule where name = N'" + design_rule.name + "';", conn);
+                    int cnt_rule = Convert.ToInt32(cmd_rule.ExecuteScalar());
+                    if (cnt_rule == 0)
+                    {
+                        SqlCommand cmd_designrule = new SqlCommand("Insert into Design_rule (name,unit_of_measurement_id) values (N'" + design_rule.name + "',(select id from unit_of_measurement where unit = N'" + design_rule.unit_of_measurement + "'))", conn);
+                        cmd_designrule.ExecuteNonQuery();
+
+                    }
+                    SqlCommand cmd = new SqlCommand("Select count(*) from Design_Rule_Country where design_rule_id =(select id from design_rule where name = N'" + design_rule.name + "') and city_id = (select id from city where country_id in (select id from country_code where country = N'" + country + "') and name = N'"+city+"');", conn);
+                    int cnt = Convert.ToInt32(cmd.ExecuteScalar());
+                    if (cnt == 0)
+                    {
+                        SqlCommand cmd1 = new SqlCommand("Insert into Design_Rule_Country (design_rule_id,city_id,value,formula) values ((select id from design_rule where name = N'" + design_rule.name + "'),(select id from City where country_id in (select id from country_code where country = N'" + country + "') and name = N'"+city+"')," + design_rule.value + ",N'"+design_rule.formula+"')", conn);
+                        cmd1.ExecuteNonQuery();
+                    }
+                    else
+                    {
+                        SqlCommand cmd2 = new SqlCommand("update Design_Rule_Country set value = " + design_rule.value + ",formula = N'"+design_rule.formula+"' where design_rule_id in ( select id from design_rule where  name = N'" + design_rule.name + "') and city_id = (select id from City where country_id in (select id from country_code where country = N'" + country + "') and name = N'" + city + "')  ;", conn);
+                        cmd2.ExecuteNonQuery();
+                    }
+                }
+                conn.Close();
+                return 1;
+            }
+            catch (System.Exception ex)
+
+            {
+
+
+                if (state == ConnectionState.Open)
+                {
+                    conn.Close();
+
+                }
+                Service17 exception1 = new Service17();
+                exception1.SendErrorToText(ex);
+                return 0;
+
+            }
+
+        }
+    
+    }
+}

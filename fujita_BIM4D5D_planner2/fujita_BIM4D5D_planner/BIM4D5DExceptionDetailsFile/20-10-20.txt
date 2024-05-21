@@ -1,0 +1,145 @@
+-----------Exception Details on  20-10-2020 10:40:34-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2020 10:40:34
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2020 10:42:42-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2020 10:42:42
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2020 10:44:27-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2020 10:44:27
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2020 10:49:43-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2020 10:49:43
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2020 10:50:01-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2020 10:50:01
+
+Error Line No : line 96
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot insert the value NULL into column 'city_id', table 'fujita_BIM4D5D_Planner2.dbo.Cost_Master'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2020 10:52:31-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2020 10:52:31
+
+Error Line No : line 61
+
+Error Message: InvalidCastException
+
+Exception Type: System.InvalidCastException
+
+Error Location : Object cannot be cast from DBNull to other types.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,816 @@
+-----------Exception Details on  12/15/2020 1:20:35 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:20:35 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:20:50 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:20:50 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:21:05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:21:05 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:21:20 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:21:20 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:21:35 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:21:35 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:21:50 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:21:50 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:22:14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:22:14 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:22:29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:22:29 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:22:44 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:22:44 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:23:03 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:23:03 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:23:18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:23:18 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:23:41 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:23:41 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:23:56 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:23:56 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:24:29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:24:29 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:24:44 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:24:44 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:24:59 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:24:59 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:25:14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:25:14 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:25:29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:25:29 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:25:44 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:25:44 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:25:59 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:25:59 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:26:14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:26:14 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:26:29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:26:29 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:26:44 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:26:44 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:26:59 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:26:59 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:27:34 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:27:34 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:27:49 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:27:49 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:28:04 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:28:04 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:28:19 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:28:19 AM
+
+Error Line No : ine 137
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/InsertRevitModelData.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:31:42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:31:42 AM
+
+Error Line No : line 25
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:33:11 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:33:11 AM
+
+Error Line No : line 25
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:34:05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:34:05 AM
+
+Error Line No : line 25
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 1:38:44 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 1:38:44 AM
+
+Error Line No : line 25
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 2:29:04 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 2:29:04 AM
+
+Error Line No : line 29
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/CostAnalysisRep.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12/15/2020 2:31:08 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12/15/2020 2:31:08 AM
+
+Error Line No : line 29
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+ Error Page Url: http://10.1.33.101:8086/CostAnalysisRep.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70E655F5-C744-444D-BC3C-B41DBF3C258D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fujita_BIM4D5D_planner</RootNamespace>
+    <AssemblyName>fujita_BIM4D5D_planner</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ENJPDictionary.Connectivity.API.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ENJPDictionary.Connectivity.API.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActivateDeactivateUsers.svc" />
+    <Content Include="costplanner5D.svc" />
+    <Content Include="cost_insert_update.svc" />
+    <Content Include="Delete_Subdiv.svc" />
+    <Content Include="EntityCost.svc" />
+    <Content Include="FindMaterial.svc" />
+    <Content Include="FindMaterialVar.svc" />
+    <Content Include="InsertMatSubdiv.svc" />
+    <Content Include="InsertRevitModelData.svc" />
+    <Content Include="DeleteRevitProj.svc" />
+    <Content Include="InsertUnitofmeasurement.svc" />
+    <Content Include="Login.svc" />
+    <Content Include="Materialdtl.svc" />
+    <Content Include="material_subdiv.svc" />
+    <Content Include="MeasurementUnit.svc" />
+    <Content Include="ReadElementData.svc" />
+    <Content Include="ReadProjDetails.svc" />
+    <Content Include="InsertProjDetails.svc" />
+    <Content Include="Readmsprojoffice.svc" />
+    <Content Include="AddReadResource.svc" />
+    <Content Include="RetrieveCost.svc" />
+    <Content Include="ProjectFilter.svc" />
+    <Content Include="GetElementStartEndDate.svc" />
+    <Content Include="ProjectExcludeCategory.svc" />
+    <Content Include="GlobalSettings.svc" />
+    <Content Include="MsprojofficeDtl.svc" />
+    <Content Include="RebarFormworkReport.svc" />
+    <Content Include="AddCost.svc" />
+    <Content Include="ExceptionLogging.svc" />
+    <Content Include="AddCountry.svc" />
+    <Content Include="Currency.svc" />
+    <Content Include="AddCity.svc" />
+    <Content Include="GetCurrency.svc" />
+    <Content Include="DesignRule.svc" />
+    <Content Include="CostAnalysisRep.svc" />
+    <Content Include="EngJapTranslation.svc" />
+    <Content Include="DictionarySync.svc" />
+    <Content Include="ReportAccessDetails.svc" />
+    <Content Include="AddJob.svc" />
+    <Content Include="AddJobVariance.svc" />
+    <Content Include="Projectlock.svc" />
+    <Content Include="GetExchangedValue.svc" />
+    <Content Include="KeywordSubdiv.svc" />
+    <Content Include="showalluser.svc" />
+    <Content Include="SignUp.svc" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\currency_service\Currency.disco" />
+    <Content Include="WriteMsprojoffice.svc" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivateDeactivateUsers.cs" />
+    <Compile Include="ActivateDeactivateUsers.svc.cs">
+      <DependentUpon>ActivateDeactivateUsers.svc</DependentUpon>
+    </Compile>
+    <Compile Include="costplanner5D.cs" />
+    <Compile Include="costplanner5D.svc.cs">
+      <DependentUpon>costplanner5D.svc</DependentUpon>
+    </Compile>
+    <Compile Include="cost_insert_update.cs" />
+    <Compile Include="cost_insert_update.svc.cs">
+      <DependentUpon>cost_insert_update.svc</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Subdiv.cs" />
+    <Compile Include="Delete_Subdiv.svc.cs">
+      <DependentUpon>Delete_Subdiv.svc</DependentUpon>
+    </Compile>
+    <Compile Include="EntityCost.cs" />
+    <Compile Include="EntityCost.svc.cs">
+      <DependentUpon>EntityCost.svc</DependentUpon>
+    </Compile>
+    <Compile Include="FindMaterial.cs" />
+    <Compile Include="FindMaterial.svc.cs">
+      <DependentUpon>FindMaterial.svc</DependentUpon>
+    </Compile>
+    <Compile Include="FindMaterialVar.cs" />
+    <Compile Include="FindMaterialVar.svc.cs">
+      <DependentUpon>FindMaterialVar.svc</DependentUpon>
+    </Compile>
+    <Compile Include="InsertMatSubdiv.cs" />
+    <Compile Include="InsertMatSubdiv.svc.cs">
+      <DependentUpon>InsertMatSubdiv.svc</DependentUpon>
+    </Compile>
+    <Compile Include="InsertRevitModelData.svc.cs">
+      <DependentUpon>InsertRevitModelData.svc</DependentUpon>
+    </Compile>
+    <Compile Include="InsertRevitModelData.cs" />
+    <Compile Include="DeleteRevitProj.cs" />
+    <Compile Include="InsertProjDetails.cs" />
+    <Compile Include="AddReadResource.cs" />
+    <Compile Include="GetElementStartEndDate.cs" />
+    <Compile Include="GlobalSettings.cs" />
+    <Compile Include="InsertUnitofmeasurement.cs" />
+    <Compile Include="InsertUnitofmeasurement.svc.cs">
+      <DependentUpon>InsertUnitofmeasurement.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddCost.cs" />
+    <Compile Include="ExceptionLogging.cs" />
+    <Compile Include="Addcountry.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="AddCity.cs" />
+    <Compile Include="GetCurrency.cs" />
+    <Compile Include="DesignRule.cs" />
+    <Compile Include="CostAnalysisRep.cs" />
+    <Compile Include="EngJapTranslation.cs" />
+    <Compile Include="DictionarySync.cs" />
+    <Compile Include="AddJob.cs" />
+    <Compile Include="AddJobVariance.cs" />
+    <Compile Include="GetExchangedValue.cs" />
+    <Compile Include="KeywordSubdiv.cs" />
+    <Compile Include="KeywordSubdiv.svc.cs">
+      <DependentUpon>KeywordSubdiv.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Projectlock.cs" />
+    <Compile Include="ReportAccessDetails.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RebarFormworkReport.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Login.svc.cs">
+      <DependentUpon>Login.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Materialdtl.cs" />
+    <Compile Include="Materialdtl.svc.cs">
+      <DependentUpon>Materialdtl.svc</DependentUpon>
+    </Compile>
+    <Compile Include="material_subdiv.cs" />
+    <Compile Include="material_subdiv.svc.cs">
+      <DependentUpon>material_subdiv.svc</DependentUpon>
+    </Compile>
+    <Compile Include="MeasurementUnit.cs" />
+    <Compile Include="MeasurementUnit.svc.cs">
+      <DependentUpon>MeasurementUnit.svc</DependentUpon>
+    </Compile>
+    <Compile Include="MsprojofficeDtl.cs" />
+    <Compile Include="ProjectExcludeCategory.cs" />
+    <Compile Include="ProjectFilter.cs" />
+    <Compile Include="RetrieveCost.cs" />
+    <Compile Include="Readmsprojoffice.cs" />
+    <Compile Include="Readmsprojoffice.svc.cs">
+      <DependentUpon>Readmsprojoffice.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddReadResource.svc.cs">
+      <DependentUpon>AddReadResource.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RetrieveCost.svc.cs">
+      <DependentUpon>RetrieveCost.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectFilter.svc.cs">
+      <DependentUpon>ProjectFilter.svc</DependentUpon>
+    </Compile>
+    <Compile Include="GetElementStartEndDate.svc.cs">
+      <DependentUpon>GetElementStartEndDate.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectExcludeCategory.svc.cs">
+      <DependentUpon>ProjectExcludeCategory.svc</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSettings.svc.cs">
+      <DependentUpon>GlobalSettings.svc</DependentUpon>
+    </Compile>
+    <Compile Include="MsprojofficeDtl.svc.cs">
+      <DependentUpon>MsprojofficeDtl.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RebarFormworkReport.svc.cs">
+      <DependentUpon>RebarFormworkReport.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddCost.svc.cs">
+      <DependentUpon>AddCost.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionLogging.svc.cs">
+      <DependentUpon>ExceptionLogging.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddCountry.svc.cs">
+      <DependentUpon>AddCountry.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Currency.svc.cs">
+      <DependentUpon>Currency.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddCity.svc.cs">
+      <DependentUpon>AddCity.svc</DependentUpon>
+    </Compile>
+    <Compile Include="GetCurrency.svc.cs">
+      <DependentUpon>GetCurrency.svc</DependentUpon>
+    </Compile>
+    <Compile Include="DesignRule.svc.cs">
+      <DependentUpon>DesignRule.svc</DependentUpon>
+    </Compile>
+    <Compile Include="CostAnalysisRep.svc.cs">
+      <DependentUpon>CostAnalysisRep.svc</DependentUpon>
+    </Compile>
+    <Compile Include="EngJapTranslation.svc.cs">
+      <DependentUpon>EngJapTranslation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="DictionarySync.svc.cs">
+      <DependentUpon>DictionarySync.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAccessDetails.svc.cs">
+      <DependentUpon>ReportAccessDetails.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddJob.svc.cs">
+      <DependentUpon>AddJob.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AddJobVariance.svc.cs">
+      <DependentUpon>AddJobVariance.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Projectlock.svc.cs">
+      <DependentUpon>Projectlock.svc</DependentUpon>
+    </Compile>
+    <Compile Include="GetExchangedValue.svc.cs">
+      <DependentUpon>GetExchangedValue.svc</DependentUpon>
+    </Compile>
+    <Compile Include="showalluser.cs" />
+    <Compile Include="showalluser.svc.cs">
+      <DependentUpon>showalluser.svc</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs" />
+    <Compile Include="SignUp.svc.cs">
+      <DependentUpon>SignUp.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\currency_service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WriteMsprojoffice.cs" />
+    <Compile Include="ReadProjDetails.cs" />
+    <Compile Include="ReadElementData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DeleteRevitProj.svc.cs">
+      <DependentUpon>DeleteRevitProj.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ReadElementData.svc.cs">
+      <DependentUpon>ReadElementData.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ReadProjDetails.svc.cs">
+      <DependentUpon>ReadProjDetails.svc</DependentUpon>
+    </Compile>
+    <Compile Include="InsertProjDetails.svc.cs">
+      <DependentUpon>InsertProjDetails.svc</DependentUpon>
+    </Compile>
+    <Compile Include="WriteMsprojoffice.svc.cs">
+      <DependentUpon>WriteMsprojoffice.svc</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <Content Include="packages.config" />
+    <None Include="Web References\currency_service\Currency.xsd" />
+    <None Include="Web References\currency_service\Currency0.xsd" />
+    <None Include="Web References\currency_service\Currency1.xsd" />
+    <Content Include="Web References\currency_service\currency_dtl.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\currency_service\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\currency_service\Service19.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:55913/Currency.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\currency_service\</RelPath>
+      <UpdateFromURL>http://localhost:55913/Currency.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>fujita_BIM4D5D_planner_currency_service_Service19</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55913</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55913/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

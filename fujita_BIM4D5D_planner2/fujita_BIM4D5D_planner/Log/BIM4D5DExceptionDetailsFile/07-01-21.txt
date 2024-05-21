@@ -1,0 +1,50 @@
+-----------Exception Details on  1/7/2021 1:38:50 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/7/2021 1:38:50 AM
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot insert the value NULL into column 'material_variance_subdiv_id', table 'fujita_BIM4D5D_Planner2.dbo.Cost_Master'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/7/2021 1:40:12 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/7/2021 1:40:12 AM
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Violation of UNIQUE KEY constraint 'uq_matsub_opt_city_effdate'. Cannot insert duplicate key in object 'dbo.Cost_Master'. The duplicate key value is (534, 1, 68, Jan  7 2021  1:40AM).
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

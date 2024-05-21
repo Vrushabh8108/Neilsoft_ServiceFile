@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BIM4D5D_service.Service3" CodeBehind="cost_insert_update.svc.cs" %>

@@ -1,0 +1,102 @@
+-----------Exception Details on  22-09-2020 15:43:33-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 22-09-2020 15:43:33
+
+Error Line No : line 32
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Incorrect syntax near ')'.
+Incorrect syntax near ','.
+Incorrect syntax near ','.
+
+ Error Page Url: http://localhost:55913/ActivateDeactivateUsers.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  22-09-2020 15:49:44-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 22-09-2020 15:49:44
+
+Error Line No : access)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Incorrect syntax near the keyword 'select'.
+Incorrect syntax near ')'.
+Incorrect syntax near ','.
+
+ Error Page Url: http://localhost:55913/ActivateDeactivateUsers.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  22-09-2020 16:10:25-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 22-09-2020 16:10:25
+
+Error Line No : line 46
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+
+ Error Page Url: http://localhost:55913/ActivateDeactivateUsers.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  22-09-2020 16:12:09-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 22-09-2020 16:12:09
+
+Error Line No : line 46
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+
+ Error Page Url: http://localhost:55913/ActivateDeactivateUsers.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

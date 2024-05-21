@@ -1,0 +1,6 @@
+D:\Important\Projects\Fujita\BIM4D5D\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll.config
+D:\Important\Projects\Fujita\BIM4D5D\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\bin\fujita_BIM4D5D_planner.pdb
+D:\Important\Projects\Fujita\BIM4D5D\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.csprojResolveAssemblyReference.cache
+D:\Important\Projects\Fujita\BIM4D5D\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.dll
+D:\Important\Projects\Fujita\BIM4D5D\fujita_BIM4D5D_planner\fujita_BIM4D5D_planner\obj\Debug\fujita_BIM4D5D_planner.pdb

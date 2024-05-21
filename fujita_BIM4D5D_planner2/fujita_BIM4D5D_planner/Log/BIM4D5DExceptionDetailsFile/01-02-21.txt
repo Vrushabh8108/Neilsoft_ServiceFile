@@ -1,0 +1,100 @@
+-----------Exception Details on  2/1/2021 2:40:50 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 2/1/2021 2:40:50 AM
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot insert the value NULL into column 'material_variance_subdiv_id', table 'fujita_BIM4D5D_Planner2.dbo.Cost_Master'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  2/1/2021 2:41:33 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 2/1/2021 2:41:33 AM
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot insert the value NULL into column 'material_variance_subdiv_id', table 'fujita_BIM4D5D_Planner2.dbo.Cost_Master'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  2/1/2021 3:29:08 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 2/1/2021 3:29:08 AM
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot insert the value NULL into column 'material_variance_subdiv_id', table 'fujita_BIM4D5D_Planner2.dbo.Cost_Master'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  2/1/2021 3:33:01 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 2/1/2021 3:33:01 AM
+
+Error Line No : ine 139
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot insert the value NULL into column 'material_variance_subdiv_id', table 'fujita_BIM4D5D_Planner2.dbo.Cost_Master'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+ Error Page Url: http://10.1.33.101:8086/cost_insert_update.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

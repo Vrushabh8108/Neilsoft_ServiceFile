@@ -1,0 +1,24 @@
+-----------Exception Details on  27-10-2020 10:20:11-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2020 10:20:11
+
+Error Line No : line 57
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

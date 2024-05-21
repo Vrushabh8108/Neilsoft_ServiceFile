@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BIM4D5D_service.Service1" CodeBehind="FindMaterial.svc.cs" %>

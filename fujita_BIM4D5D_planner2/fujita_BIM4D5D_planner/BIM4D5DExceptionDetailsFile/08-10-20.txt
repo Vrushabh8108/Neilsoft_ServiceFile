@@ -1,0 +1,24 @@
+-----------Exception Details on  08-10-2020 16:56:15-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-10-2020 16:56:15
+
+Error Line No : rency()
+
+Error Message: RuntimeBinderException
+
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+
+Error Location : Cannot implicitly convert type 'Newtonsoft.Json.Linq.JObject' to 'fujita_BIM4D5D_planner.currency_dtl'
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

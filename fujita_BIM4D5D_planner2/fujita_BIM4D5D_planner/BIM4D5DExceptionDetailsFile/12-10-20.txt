@@ -1,0 +1,462 @@
+-----------Exception Details on  12-10-2020 11:45:50-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 11:45:50
+
+Error Line No : line 74
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : String or binary data would be truncated.
+The statement has been terminated.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 11:51:53-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 11:51:53
+
+Error Line No : line 74
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : String or binary data would be truncated.
+The statement has been terminated.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 11:52:27-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 11:52:27
+
+Error Line No : line 74
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : String or binary data would be truncated.
+The statement has been terminated.
+
+ Error Page Url: http://localhost:55913/AddCountry.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 15:00:52-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 15:00:52
+
+Error Line No : line 70
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'country'.
+
+ Error Page Url: http://localhost:55913/AddCity.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 15:02:41-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 15:02:41
+
+Error Line No : ountry)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid column name 'name'.
+
+ Error Page Url: http://localhost:55913/AddCity.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 18:57:27-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 18:57:27
+
+Error Line No : line 68
+
+Error Message: RuntimeBinderException
+
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+
+Error Location : Cannot apply indexing with [] to an expression of type 'fujita_BIM4D5D_planner.currency_rate'
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 18:57:58-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 18:57:58
+
+Error Line No : line 68
+
+Error Message: RuntimeBinderException
+
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+
+Error Location : Cannot apply indexing with [] to an expression of type 'fujita_BIM4D5D_planner.currency_rate'
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 18:58:19-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 18:58:19
+
+Error Line No : line 68
+
+Error Message: RuntimeBinderException
+
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+
+Error Location : Cannot apply indexing with [] to an expression of type 'fujita_BIM4D5D_planner.currency_rate'
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 18:59:07-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 18:59:07
+
+Error Line No : line 68
+
+Error Message: RuntimeBinderException
+
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+
+Error Location : Cannot apply indexing with [] to an expression of type 'fujita_BIM4D5D_planner.currency_rate'
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:00:15-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:00:15
+
+Error Line No : line 68
+
+Error Message: RuntimeBinderException
+
+Exception Type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+
+Error Location : Cannot apply indexing with [] to an expression of type 'fujita_BIM4D5D_planner.currency_rate'
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:13:08-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:13:08
+
+Error Line No : line 71
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:19:48-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:19:48
+
+Error Line No : line 71
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:21:24-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:21:24
+
+Error Line No : rency()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:24:09-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:24:09
+
+Error Line No : rency()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:28:10-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:28:10
+
+Error Line No : rency()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:34:29-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:34:29
+
+Error Line No : line 71
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:36:43-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:36:43
+
+Error Line No : line 71
+
+Error Message: ArgumentNullException
+
+Exception Type: System.ArgumentNullException
+
+Error Location : Value cannot be null.
+Parameter name: source
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:37:18-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:37:18
+
+Error Line No : rency()
+
+Error Message: ArgumentNullException
+
+Exception Type: System.ArgumentNullException
+
+Error Location : Value cannot be null.
+Parameter name: source
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-10-2020 19:37:50-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-10-2020 19:37:50
+
+Error Line No : rency()
+
+Error Message: ArgumentNullException
+
+Exception Type: System.ArgumentNullException
+
+Error Location : Value cannot be null.
+Parameter name: source
+
+ Error Page Url: http://localhost:55913/Currency.svc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
